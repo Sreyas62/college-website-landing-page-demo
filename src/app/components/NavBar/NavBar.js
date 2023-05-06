@@ -21,13 +21,13 @@ function NavBar() {
         <img className="imm" src="http://cdn.onlinewebfonts.com/svg/img_143760.png" alt="Close" onClick={hideMenu} />
         <ul>
           <li>
-            <a href="index.html">LinkedIn</a>
+            <a href="https://www.linkedin.com/school/college-of-engineering-chengannur/">LinkedIn</a>
           </li>
           <li>
-            <a href="about.html">Instagram</a>
+            <a href="https://www.instagram.com/cec_chengannur/">Instagram</a>
           </li>
           <li>
-            <a href="course.html">Twitter</a>
+            <a href="/">Twitter</a>
           </li>
         </ul>
       </div>
