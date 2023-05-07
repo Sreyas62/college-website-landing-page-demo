@@ -29,6 +29,10 @@
     border: none;
     border-radius: 60px;
 }
+button:hover{
+    font-size: 1.02em;
+    transition: font-size 0.3s ease-in-out;
+}
 .car{
     width:50em;
     height:20em;

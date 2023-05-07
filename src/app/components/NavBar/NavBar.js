@@ -18,7 +18,7 @@ function NavBar() {
 
   return (
     <nav>
-      <p>College code - CHN</p>
+      <p className="code">College code - CHN</p>
       <div className="nav-links" ref={navLinksRef}>
         <img className="imm" src="http://cdn.onlinewebfonts.com/svg/img_143760.png" alt="Close" onClick={hideMenu} />
         <ul>

@@ -1,0 +1,17 @@
+.foot{
+    margin-top: 8em;
+    border-radius: 50% 50% 0 0;
+    display: flex;
+    justify-content: center;
+    color:white;
+    background-color: #3D4378;
+    padding:2em;
+}
+.name{
+    font-size: 1.2em;
+}
+.bb{
+    background-color:#3D4378;
+    border:none;
+    color:white;
+}
