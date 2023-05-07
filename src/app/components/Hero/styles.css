@@ -21,7 +21,7 @@
     color: grey;
 }
 .btn1{
-    margin-top: 2em;
+    
     color: white;
     padding: 1em 40px;
     gap: 10px;
@@ -54,24 +54,26 @@
 }
 .logo{
     width: 20%;
+    margin-top: 1em;
 }
 .title{
     font-weight: 1rem;
-    font-size: 1rem;
+    font-size: 1.2em;
 
 
     color: #000000;
 }
 .discp{
-    padding-top:1em;
+    padding-top:0.5em;
+    padding-bottom:0.2em;
     width: 100%;
     color: grey;
 }
 .btn{
-    margin-top: 1em;
+    padding-top: 0em;
     color: white;
     padding: 1em 40px;
-    gap: 10px;
+    
     background: #1F2026;
     border: none;
     border-radius: 60px;
