@@ -2,8 +2,23 @@
 import "./styles.css";
 import {MdLocationOn,MdEmail} from "react-icons/md";
 import {IoMdContact} from "react-icons/io";
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 function Contact() {
+    const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('contact_service', 'contact_form', form.current, 'w_O39RozvDOyOAUFd')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+  };
   return (
     <div className="sec">
         {/* <section class="location">
@@ -40,12 +55,12 @@ function Contact() {
                 </div>
             </div>
             <div className="contact-col">
-                <form action="submit">
-                    <input className="ff" type="text" placeholder="Enter your name" required/>
-                    <input type="email" placeholder="Enter email address" required/>
-                    <input type="text" placeholder="Enter your subject" required/>
-                    <textarea rows="8" placeholder="Message" required></textarea>
-                    <button type="submit" class="btn2">Send Message</button>
+                <form action="submit" ref={form} onSubmit={sendEmail}>
+                    <input className="ff" type="text" name="user_name" placeholder="Enter your name" required/>
+                    <input type="email" name="user_email" placeholder="Enter email address" required/>
+                    <input type="text" name="subject" placeholder="Enter your subject" required/>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="btn2" value="Send">Send Message</button>
                 </form>
             </div>
         </div>
@@ -56,7 +71,7 @@ function Contact() {
     <iframe
       title="Google Maps"
       src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7874.354761650065!2d76.617834!3d9.317546!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0622ea027eb08f%3A0x41105b207db821c6!2sCollege%20of%20Engineering%20Chengannur!5e0!3m2!1sen!2sus!4v1683437991768!5m2!1sen!2sus"
-      width="1350"
+      width="1000"
       height="450"
       style={{ border: 0, borderRadius: "1em" }}
       allowFullScreen=""

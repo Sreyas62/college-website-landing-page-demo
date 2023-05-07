@@ -1,6 +1,8 @@
 'use client'
 import React, { useRef } from "react";
 import "./styles.css";
+import {ImLinkedin,ImTwitter} from 'react-icons/im';
+import {AiFillInstagram} from 'react-icons/ai';
 
 
 function NavBar() {
@@ -21,12 +23,15 @@ function NavBar() {
         <img className="imm" src="http://cdn.onlinewebfonts.com/svg/img_143760.png" alt="Close" onClick={hideMenu} />
         <ul>
           <li>
+            <ImLinkedin className="ico" size="18px"/>
             <a href="https://www.linkedin.com/school/college-of-engineering-chengannur/">LinkedIn</a>
           </li>
           <li>
+            <AiFillInstagram className="ico" size="23px"/>
             <a href="https://www.instagram.com/cec_chengannur/">Instagram</a>
           </li>
           <li>
+            <ImTwitter className="ico" size="20px"/>
             <a href="/">Twitter</a>
           </li>
         </ul>
