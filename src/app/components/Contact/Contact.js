@@ -33,7 +33,7 @@ function Contact() {
     <section className="contact-us">
         <h1 className="ccc">Contact us</h1>
         <div className="row">
-            <div className="contact-col" data-aos="fade-right">
+            <div className="contact-col">
                 <div>
                     <MdLocationOn className="ic" size="2.5em"/>               
                     <span>
@@ -59,7 +59,7 @@ function Contact() {
                     </span>
                 </div>
             </div>
-            <div className="contact-col" data-aos="fade-left">
+            <div className="contact-col" data-aos="fade-down">
                 <form action="submit" ref={form} onSubmit={sendEmail}>
                     <input className="ff" type="text" name="user_name" placeholder="Enter your name" required/>
                     <input type="email" name="user_email" placeholder="Enter email address" required/>
