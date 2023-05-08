@@ -4,14 +4,14 @@
     display: flex;
     justify-content: center;
     color:white;
-    background-color: #3D4378;
+    background-color: #2B2B2B;
     padding:2em;
 }
 .name{
     font-size: 1.2em;
 }
 .bb{
-    background-color:#3D4378;
+    background-color:#2B2B2B;
     border:none;
     color:white;
 }

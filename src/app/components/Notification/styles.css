@@ -9,8 +9,8 @@
     width:50%;
     height: 100%;
     padding:3em;
-    background: #3D4378;
-border-radius: 0px 100px 100px 0px;
+    background: #2B2B2B;
+border-radius: 0px 50px 50px 0px;
 }
 li{
     padding: 0.2em;
@@ -28,8 +28,8 @@ li{
     color:white;
     width:30%;
     padding:3em 3em 3em 5em;
-    background: #3D4378;
-border-radius: 100px 0px 0px 100px;
+    background: #2B2B2B;
+border-radius: 50px 0px 0px 50px;
 }
 .full{
     display: flex;
@@ -72,8 +72,8 @@ border-radius: 100px 0px 0px 100px;
         width:90%;
         height: 100%;
         padding:3em;
-        background: #3D4378;
-    border-radius: 0px 100px 100px 0px;
+        background: #2B2B2B;
+    border-radius: 0px 50px 50px 0px;
     }
     li{
         padding: 0.2em;
