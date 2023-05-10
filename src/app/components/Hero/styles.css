@@ -91,3 +91,19 @@ button:hover{
     height:100%;
 }
 }
+@media (max-width: 1080px) and (min-width: 700px){
+    .title{
+        font-weight: 1rem;
+        font-size: 1.5rem;
+    
+    
+        color: #000000;
+    }
+    .car{
+        width:40em;
+        height:40em;
+    }
+    .discp{
+        width: 90%;
+    }
+}

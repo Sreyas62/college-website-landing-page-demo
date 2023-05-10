@@ -12,10 +12,10 @@
     background-size: cover;
     position: relative;
 }
-.codee{
+.code{
     padding: 0.4em 30px;
     border: 2px solid #1F2026;
-    border-radius: 60px;
+    border-radius: 0.5em;
     margin-bottom: 1em;
 }
 nav{
@@ -35,10 +35,16 @@ nav img{
     text-align: right;
 }
 
-.nav-links ul li{
+.pgs{
     list-style: none;
     display: inline-block;
     padding: 8px 3em;
+    position: relative;
+}
+.ics{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 1em;
     position: relative;
 }
 
@@ -55,6 +61,7 @@ nav img{
     background: #f44336;
     display: block;
     margin: auto;
+    width: 0.15em;
     transition: 0.5s;
 }
 
@@ -66,7 +73,7 @@ nav .fa{
 }
 .ico{
     margin-bottom: 3px;
-    margin-right: 5px;
+    margin-right: 0px;
 }
 
 
@@ -107,6 +114,24 @@ nav .fa{
     nav img{
         width: 40px;
         display: block;
+    }
+    .nav-links ul li::after{
+        content: '';
+        width: 0%;
+        height: 2px;
+        background: #f44336;
+        display: block;
+        margin: auto;
+        width: 0;
+        transition: 0.5s;
+    }
+    .ics{
+        list-style: none;
+        padding: 0px 1em;
+        margin-left: 3em;
+        margin-bottom: 1em;
+        margin-top: 1em;
+
     }
 
 }

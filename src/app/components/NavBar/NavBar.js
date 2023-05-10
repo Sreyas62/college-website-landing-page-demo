@@ -3,6 +3,7 @@ import React, { useRef } from "react";
 import "./styles.css";
 import {ImLinkedin,ImTwitter} from 'react-icons/im';
 import {AiFillInstagram} from 'react-icons/ai';
+import Link from "next/link";
 
 
 function NavBar() {
@@ -22,17 +23,30 @@ function NavBar() {
       <div className="nav-links" ref={navLinksRef}>
         <img className="imm" src="http://cdn.onlinewebfonts.com/svg/img_143760.png" alt="Close" onClick={hideMenu} />
         <ul>
-          <li>
-            <ImLinkedin className="ico" size="18px"/>
-            <a href="https://www.linkedin.com/school/college-of-engineering-chengannur/">LinkedIn</a>
+          <li className="pgs">
+            <Link href="/about">About</Link>
           </li>
-          <li>
-            <AiFillInstagram className="ico" size="23px"/>
-            <a href="https://www.instagram.com/cec_chengannur/">Instagram</a>
+          <li className="pgs">
+            <Link href="http://tharang.ihrd.ac.in/">IHRD Tharang</Link>
           </li>
-          <li>
-            <ImTwitter className="ico" size="20px"/>
-            <a href="/">Twitter</a>
+           <li className="pgs">
+            <Link href="/academics">Academics</Link>
+          </li>
+          <li className="pgs">
+            <Link href="/contact">Contact</Link>
+          </li>
+        
+          <li className="ics">
+            
+            <a href="https://www.linkedin.com/school/college-of-engineering-chengannur/"><ImLinkedin className="ico" size="20px"/></a>
+          </li>
+          <li className="ics">
+            
+            <a href="https://www.instagram.com/cec_chengannur/"><AiFillInstagram className="ico" size="23px"/></a>
+          </li>
+          <li className="ics">
+            
+            <a href="/"><ImTwitter className="ico" size="20px"/></a>
           </li>
         </ul>
       </div>
