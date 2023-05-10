@@ -35,8 +35,8 @@ function Contact() {
         <div className="row">
             <div className="contact-col">
                 <div>
-                    <MdLocationOn className="ic" size="2.5em"/>               
-                    <span>
+                                  
+                    <span><MdLocationOn className="ic" size="2.5em"/> 
                         <h5>College of Engineering Chengannur</h5>
                         <p>Chengannur P.O.
                             Alapuzha District<br />
@@ -45,15 +45,17 @@ function Contact() {
                     </span>
                 </div>
                 <div>
-                <IoMdContact className="ic" size="2em"/>                     
+                                     
                     <span>
+                    <IoMdContact className="ic" size="2em"/>
                         <h5>+91 8848835546</h5>
                         <p>Monday to Saturday, 10AM to 6PM</p>
                     </span>
                 </div>
                 <div>
-                <MdEmail className="ic" size="2em"/>                
+                                
                     <span>
+                    <MdEmail className="ic" size="2em"/>
                         <h5>principal@ceconline.edu</h5>
                         <p>Email your query</p>
                     </span>
@@ -76,7 +78,7 @@ function Contact() {
     <iframe
       title="Google Maps"
       src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7874.354761650065!2d76.617834!3d9.317546!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0622ea027eb08f%3A0x41105b207db821c6!2sCollege%20of%20Engineering%20Chengannur!5e0!3m2!1sen!2sus!4v1683437991768!5m2!1sen!2sus"
-      width="1000"
+      width="1300"
       height="450"
       style={{ border: 0, borderRadius: "1em" }}
       allowFullScreen=""

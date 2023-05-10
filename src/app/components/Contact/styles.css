@@ -9,13 +9,13 @@
 
 }
 .ccc{
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }
 .mm{
     padding-top: 1em;
     padding-bottom: 1em;
     width: 90%;
-    margin: auto;
+    margin-left: auto;
 }
 .contact-col div{
     display: flex;
@@ -55,7 +55,7 @@
     border-radius: 60px;
 }
 input,textarea{
-    border-radius: 2em;
+    border-radius: 1em;
 }
 
 .ic{
@@ -74,6 +74,7 @@ input,textarea{
         padding-top: 5em;
         width:80%;
         margin: 0 2em;
+        text-align: center;
         
     }
     .sec{
@@ -84,7 +85,7 @@ input,textarea{
     }
     .contact-col div{
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     }
     .contact-col div .fa-solid{
         margin: 10px;
@@ -104,10 +105,17 @@ input,textarea{
     }
     .map{
         padding-top: 0em;
+        text-align: center;
     }
 
     iframe{
         width: 300px;
         height: 300px;
+    }
+    .mm{
+        padding-top: 1em;
+        padding-bottom: 1em;
+        width: 100%;
+        margin-left: auto;
     }
 }

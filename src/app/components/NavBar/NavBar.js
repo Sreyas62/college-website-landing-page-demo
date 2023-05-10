@@ -24,13 +24,13 @@ function NavBar() {
         <img className="imm" src="http://cdn.onlinewebfonts.com/svg/img_143760.png" alt="Close" onClick={hideMenu} />
         <ul>
           <li className="pgs">
-            <Link href="/about">About</Link>
+            <Link href="/academics">Academics</Link>
           </li>
           <li className="pgs">
             <Link href="http://tharang.ihrd.ac.in/">IHRD Tharang</Link>
           </li>
            <li className="pgs">
-            <Link href="/academics">Academics</Link>
+            <Link href="/about">About</Link>
           </li>
           <li className="pgs">
             <Link href="/contact">Contact</Link>
