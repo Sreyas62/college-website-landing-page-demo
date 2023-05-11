@@ -37,10 +37,10 @@ function Notification() {
                     <div className='full'>
                         <div className='dd'>
                             <div className='date'>
-                                <h6 className='bold'>26</h6>
+                                <h6 className='bold'>22</h6>
                             </div>
                             <div className='month'>
-                                <h6>APRIL</h6>
+                                <h6>MAY</h6>
                             </div>
                         </div>
                         <div className='event'>
@@ -50,10 +50,10 @@ function Notification() {
                     <div className='full'>
                         <div className='dd'>
                             <div className='date'>
-                                <h6 className='bold'>22</h6>
+                                <h6 className='bold'>23</h6>
                             </div>
                             <div className='month'>
-                                <h6>APRIL</h6>
+                                <h6>MAY</h6>
                             </div>
                         </div>
                         <div className='event'>

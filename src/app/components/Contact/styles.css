@@ -2,6 +2,7 @@
 .contact-us{
     width: 90%;
     margin: auto;
+    padding-top: 3em;
 }
 .contact-col{
     flex-basis: 48%;

@@ -27,7 +27,7 @@ function Contact() {
       e.target.reset();
   };
   return (
-    <div className="sec" data-aos="fade-up">
+    <div className="sec" data-aos="fade-up" id="contact">
 
     
     <section className="contact-us">
@@ -72,7 +72,6 @@ function Contact() {
             </div>
         </div>
     </section>
-    
     <div className="map" data-aos="fade-up">
     <h1 className="mm" data-aos="fade-up">Locate us</h1>
     <iframe

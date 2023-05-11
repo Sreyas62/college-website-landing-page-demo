@@ -33,7 +33,10 @@ function NavBar() {
             <Link href="/about">About</Link>
           </li>
           <li className="pgs">
-            <Link href="/contact">Contact</Link>
+            <Link href="#locate">Locate</Link>
+          </li>
+          <li className="pgs">
+            <Link href="#contact">Contact</Link>
           </li>
         
           <li className="ics">

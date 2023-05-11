@@ -164,6 +164,7 @@ li{
         border-radius: 50px;
         width: 120%;
         margin-left: 1em;
+        margin-top: 0;
     }
 }
 @media (max-width: 1080px) and (min-width: 700px){
