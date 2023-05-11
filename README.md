@@ -1,11 +1,11 @@
-## Install :heart:
+## Install :
 
 At your root directory run the below command to install all the dependencies
 ```sh
 yarn install
 ```
 
-## Usage :star:
+## Usage :
 
 To start react dev server
 
