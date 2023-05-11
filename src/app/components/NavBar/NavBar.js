@@ -38,15 +38,15 @@ function NavBar() {
         
           <li className="ics">
             
-            <a href="https://www.linkedin.com/school/college-of-engineering-chengannur/"><ImLinkedin className="ico" size="20px"/></a>
+            <div><a href="https://www.linkedin.com/school/college-of-engineering-chengannur/"><ImLinkedin className="ico" size="20px"/></a></div>
           </li>
           <li className="ics">
             
-            <a href="https://www.instagram.com/cec_chengannur/"><AiFillInstagram className="ico" size="23px"/></a>
+            <div><a href="https://www.instagram.com/cec_chengannur/"><AiFillInstagram className="ico" size="23px"/></a></div>
           </li>
           <li className="ics">
             
-            <a href="/"><ImTwitter className="ico" size="20px"/></a>
+            <div><a href="/"><ImTwitter className="ico" size="20px"/></a></div>
           </li>
         </ul>
       </div>
