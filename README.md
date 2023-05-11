@@ -1,11 +1,14 @@
-## Install :
+## This is a demo landing page of College of Engineering Chengannur
+
+
+### Install :
 
 At your root directory run the below command to install all the dependencies
 ```sh
 yarn install
 ```
 
-## Usage :
+### Usage :
 
 To start react dev server
 
@@ -18,4 +21,4 @@ This runs the app in the development mode.<br />
 
 The page will reload if you make edits.<br />
 
-## Hope you likes it :
+## Hope you likes it :smile: leave a star ⭐
