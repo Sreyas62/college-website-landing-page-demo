@@ -31,12 +31,13 @@ li{
     padding: 0.2em;
 }
 .L{
-    font-size: 0.8em;
+    font-size: 1em;
     color:white;
     text-decoration: none;
 }
 .L:hover{
     color:grey;
+    text-decoration: underline;
 }
 .events{
     margin-top: 8em;
