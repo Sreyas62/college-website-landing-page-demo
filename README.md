@@ -28,3 +28,10 @@ This runs the app in the development mode.<br />
 The page will reload if you make edits.<br />
 
 ## Hope you likes it :smile: leave a star ⭐
+
+<h3 align="center">Connect with me:</h3>
+<p align="center">
+<a href="https://twitter.com/finato_" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="sreyas_murali_" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/sreyas-m-pillai/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/sreyas-m-pillai/" height="30" width="40" /></a>
+<a href="https://instagram.com/__finato___08__?igshid=zddkntzintm=" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://instagram.com/__finato___08__?igshid=zddkntzintm=" height="30" width="40" /></a>
+</p>
