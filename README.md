@@ -9,6 +9,10 @@ At your root directory run the below command to install all the dependencies
 ```sh
 yarn install
 ```
+or
+```sh
+yarn
+```
 
 ### Usage :
 
